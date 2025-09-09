@@ -1,0 +1,38 @@
+.container {
+  max-width: 1000px;
+  margin-top: 50px;
+  margin-left: 350px;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* Solo dos columnas */
+  gap: 2.3rem;
+  justify-content: center;
+}
+
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #1a1a1a;
+}
+
+.card a {
+  display: block;
+  color: #0066cc;
+  text-decoration: none;
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
