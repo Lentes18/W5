@@ -5,14 +5,14 @@
   margin-left: 350px;
   padding: 0 2rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* Solo dos columnas */
+  grid-template-columns: repeat(3, 1fr);
+  /* Solo 3 columnas */
   gap: 2.3rem;
   justify-content: center;
 }
 
-
 .card {
+  text-align: center;
   background-color: #ffffff;
   border: 1px solid #e0e0e0;
   padding: 1rem 1.5rem;
